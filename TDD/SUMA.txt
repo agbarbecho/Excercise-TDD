@@ -1,0 +1,19 @@
+fun main() {
+    
+    testSum()
+}
+
+fun sum (a:Int, b:Int):Int{
+    return a + b
+};
+
+
+fun testSum(){
+    val response = sum (4,6)
+    val expected = 10
+    if (response == expected){
+        println("Test Passed")
+    } else {
+        println("Test Failed")
+    }
+};
